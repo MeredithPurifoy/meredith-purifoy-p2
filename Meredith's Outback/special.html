@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset="utf-8">
+	<title>Meredith's Outback - Specials</title>
+	<link rel="shortcut icon" href="./img/favicon_io/samus.ico">
+	<link rel="stylesheet" type="text/css" href="./css/master.css"></head>
+<body>
+	<header class="main-head">
+		<h1>Meredith's Outback</h1>
+		<nav>
+			<ul class= "nav-bar">
+				<a href="./index.html"><div class="nav-item">
+					<li>Home</li>
+				</div></a>
+				<a href="./menu.html"><div class="nav-item">
+					<li>Menu</li>
+				</div></a>
+				<a href="./special.html"><div class="nav-item">
+					<li>Specials</li>
+				</div></a>
+				<a href="./reviews.html"><div class="nav-item">
+					<li>Reviews</li>
+				</div></a>
+				<a href="./contact.html"><div class="nav-item">
+					<li>Contacts</li>
+				</div></a>
+			</ul>
+		</nav>
+	</header>
+<div class="main-content">
+<section class="intro">
+	<h2>Menu Specials</h2>
+	<p>These are the more exclusive dishes we have in store.  Expensive, but worth it.</p>
+</section>
+<section id= "spec-menu">
+    <div class="spec-menu-items">
+		<img class="item-img" src="./img/steakfry.png" alt= "Steak Fry">
+		<p>Outback Steak Fry</p>
+		<ul>
+			<li>Solo.... $16.00</li>
+			<li>Combo.... $19.00</li>
+		</ul>
+	</div>
+	<div class="spec-menu-items">
+		<img class="item-img" src="./img/outchicksalad.png" alt= "Outback Chicken Salad">
+		<p>Outback Chicken Salad</p>
+		<ul>
+			<li>Solo.... $14.00</li>
+			<li>Combo.... $17.00</li>
+		</ul>
+	</div>
+</section>
+</div>
+<section id="review-container">
+	<div id="main-review-title">
+		<h2>User Reviews</h2>
+	</div>
+	<div id="display-content">
+		
+	</div>
+	<div id="new-review-button-contents">
+		<button id="new-review">New Review</button>
+	</div>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal-dialog">
+	<section>
+		<h2>Name</h2>
+		<input type="text" id="edit-name-text">
+	</section>
+	<section>
+		<h2>Your Review</h2>
+		<textarea placeholder="Enter text here..." id="edit-content-text" cols="40" rows="5"></textarea>
+	</section>
+	<footer>
+		<button id="cancel-button">Cancel</button>
+		<button id="save-button">Save</button>
+	</footer>
+</div>
+
+<div id="modal-backdrop"></div>
+<!--______________________-->
+<script src="./js/special.js"></script>
+<footer class="main-foot">
+	Copywrite &copy; Falcon Productions, 2020
+</footer>
+</body>
+</html>
